@@ -1,0 +1,4 @@
+SELECT CustomerName, OrderID
+From Customers
+INNER JOIN Orders ON Customers.CustomerID = Orders.CustomerID
+WHERE OrderID=10310;

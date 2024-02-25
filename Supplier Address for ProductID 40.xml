@@ -1,0 +1,5 @@
+SELECT Suppliers.Address, Products.ProductID
+FROM Suppliers
+LEFT JOIN Products
+ON Suppliers.SupplierID=Products.SupplierID
+Where ProductID = 40;
